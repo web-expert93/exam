@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <title>Conference</title>
+  </head>
+  <body>
+    <!-- start of navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-success shadow rounded sticky-top"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="image/varsityLogo.png" alt="" width="50px" height="50px" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="upcomingEvents.html">Upcoming Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="recentEvents.html">Recent Events</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End of Navbar -->
+
+    <!-- Image Slider -->
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <!-- Image Indicator -->
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <!-- End of Image Indicator -->
+
+      <!-- Image -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="image/JKKNIU-2.jpg"
+            class="d-block w-100"
+            alt="..."
+            style="width: 100%; height: 90vh"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="image/Conference-2.jpg"
+            class="d-block w-100"
+            alt="..."
+            style="width: 100%; height: 90vh"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="image/Conference-3.jpg"
+            class="d-block w-100"
+            alt="..."
+            style="width: 100%; height: 90vh"
+          />
+        </div>
+      </div>
+      <!-- End of Image -->
+
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- End of Image Slider -->
+
+    <!-- About -->
+    <div class="container-fluid mt-5 pt-5">
+      <div class="row justify-content-center">
+        <div class="col-lg-5 col-md-2 col-sm-12 mt-2 text-end">
+          <img src="image/JKKNIU-3.jpg" alt="" height="400px"/>
+        </div>
+          <div class="col-lg-4 col-md-3 col-sm-12 mt-2">
+            <h2>Welcome to JKKNIU Conference</h2><hr>
+          <div class="">
+            <p class="text-color" style="text-align: justify;">
+              Jatiya Kabi Kazi Nazrul Islam holds many seminars and events as conference very often. The conferences consists variety of topics. We here have listed the upcoming conference events along with the past held conference. Every events details can also be found here.
+            </p>
+          </div>          
+        </div>
+      </div>
+    </div>
+    <!-- End of About -->
+
+    <!-- Start of Upcoming Events -->
+    <section class="mt-5 pt-5">
+      <div class="container">
+        <div class="row align-items-center mb-3" style="text-align: center;">
+          <div class="col-12 intro-text">
+            <h1>Upcoming Events</h1>
+          </div>
+        </div>
+  
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          
+          <div class="col-lg-4 col-mid-6 col-12">
+            <div class="card shadow-on-hover">
+              <img src="image/Cybersecurity.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Cybersecurity at All Levels: Build the Right Culture in Your Organization</h5><hr>
+                <h6> <i class="fa-solid fa-clock"></i> Tuesday, August 30, 2022 at 10:00am</h6>
+                <h6> <i class="fa-solid fa-location-pin"></i> 3<sup>rd</sup> Floor, Administration Building, JKKNIU</h6>
+                <p class="card-text">Cybersecurity is a complex problem that cannot be solved by technology alone.....</p>
+                <a href="eventDetails.html">
+                  <button class="btn btn-primary">See more</button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-mid-6 col-12">
+            <div class="card shadow-on-hover">
+              <img src="image/Cybersecurity.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Cybersecurity at All Levels: Build the Right Culture in Your Organization</h5><hr>
+                <h6> <i class="fa-solid fa-clock"></i> Tuesday, August 30, 2022 at 10:00am</h6>
+                <h6> <i class="fa-solid fa-location-pin"></i> 3<sup>rd</sup> Floor, Administration Building, JKKNIU</h6>
+                <p class="card-text">Cybersecurity is a complex problem that cannot be solved by technology alone.....</p>
+                <a href="eventDetails.html">
+                  <button class="btn btn-primary">See more</button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-mid-6 col-12">
+            <div class="card shadow-on-hover">
+              <img src="image/Cybersecurity.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Cybersecurity at All Levels: Build the Right Culture in Your Organization</h5><hr>
+                <h6> <i class="fa-solid fa-clock"></i> Tuesday, August 30, 2022 at 10:00am</h6>
+                <h6> <i class="fa-solid fa-location-pin"></i> 3<sup>rd</sup> Floor, Administration Building, JKKNIU</h6>
+                <p class="card-text">Cybersecurity is a complex problem that cannot be solved by technology alone.....</p>
+                <a href="eventDetails.html">
+                  <button class="btn btn-primary">See more</button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-mid-6 col-12">
+            <div class="card shadow-on-hover">
+              <img src="image/Cybersecurity.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Cybersecurity at All Levels: Build the Right Culture in Your Organization</h5><hr>
+                <h6> <i class="fa-solid fa-clock"></i> Tuesday, August 30, 2022 at 10:00am</h6>
+                <h6> <i class="fa-solid fa-location-pin"></i> 3<sup>rd</sup> Floor, Administration Building, JKKNIU</h6>
+                <p class="card-text">Cybersecurity is a complex problem that cannot be solved by technology alone.....</p>
+                <a href="eventDetails.html">
+                  <button class="btn btn-primary">See more</button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+    </section>
+    <!-- End of Upcoming Events -->
+
+    <!-- Start of Recent Events -->
+    <section class="mt-5 pt-5">
+      <div class="container">
+        <div class="row align-items-center mb-3" style="text-align: center;">
+          <div class="col-12 intro-text">
+            <h1>Recent Events</h1>
+          </div>
+        </div>
+  
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          
+          <div class="col-lg-4 col-mid-6 col-12">
+            <div class="card shadow-on-hover">
+              <img src="image/Cybersecurity-2.jpg" class="card-img-top" alt="..." height="310px">
+              <div class="card-body">
+                <h5 class="card-title">Cybersecurity at All Levels: Build the Right Culture in Your Organization</h5><hr>
+                <h6> <i class="fa-solid fa-clock"></i> Tuesday, August 30, 2022 at 10:00am</h6>
+                <h6> <i class="fa-solid fa-location-pin"></i> 3<sup>rd</sup> Floor, Administration Building, JKKNIU</h6>
+                <p class="card-text">Cybersecurity is a complex problem that cannot be solved by technology alone.....</p>
+                <a href="eventDetails.html">
+                  <button class="btn btn-primary">See more</button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-mid-6 col-12">
+            <div class="card shadow-on-hover">
+              <img src="image/Cybersecurity-2.jpg" class="card-img-top" alt="..." height="310px">
+              <div class="card-body">
+                <h5 class="card-title">Cybersecurity at All Levels: Build the Right Culture in Your Organization</h5><hr>
+                <h6> <i class="fa-solid fa-clock"></i> Tuesday, August 30, 2022 at 10:00am</h6>
+                <h6> <i class="fa-solid fa-location-pin"></i> 3<sup>rd</sup> Floor, Administration Building, JKKNIU</h6>
+                <p class="card-text">Cybersecurity is a complex problem that cannot be solved by technology alone.....</p>
+                <a href="eventDetails.html">
+                  <button class="btn btn-primary">See more</button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-mid-6 col-12">
+            <div class="card shadow-on-hover">
+              <img src="image/Cybersecurity-2.jpg" class="card-img-top" alt="..." height="310px">
+              <div class="card-body">
+                <h5 class="card-title">Cybersecurity at All Levels: Build the Right Culture in Your Organization</h5><hr>
+                <h6> <i class="fa-solid fa-clock"></i> Tuesday, August 30, 2022 at 10:00am</h6>
+                <h6> <i class="fa-solid fa-location-pin"></i> 3<sup>rd</sup> Floor, Administration Building, JKKNIU</h6>
+                <p class="card-text">Cybersecurity is a complex problem that cannot be solved by technology alone.....</p>
+                <a href="eventDetails.html">
+                  <button class="btn btn-primary">See more</button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- End of Recent Events -->
+
+    
+  <!--Footer-->
+  <footer>
+    <div class="footer-top">
+      <div class="container-fluid mt-5">
+        <h5 class="text-center pt-3">CONTACT US</h5>
+        <div class="row">
+          <div class="col-lg-1">
+            <img src="image/varsityLogo.png" alt="" style="height: 100px; width: 100px;">
+          </div>
+          <div class="col-lg-7 pt-4">
+            <h6>Jatiya Kabi Kazi Nazrul Islam University</h6>
+            <h6>Trishal, Mymensingh, Bangladesh</h6>
+          </div>
+          <div class="col-lg-4">
+            <h6 class="mb-2">PABX Telephone: 09032-56212, 56214, 56217, 56245, 56247, 56248, 56271</h6>
+            <h6>Fax : 09032-56270</h6>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <p class="text-lead text-center">
+              © Copyright 2022, JKKNIU. All rights reserved
+            </p>
+          </div>
+          <!-- <div class="col-lg-4"></div> -->
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End of Footer -->
+
+  </body>
+</html>

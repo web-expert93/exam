@@ -1,0 +1,28 @@
+:root{
+    --header_color: #eaeded;
+}
+
+.bg-success
+{
+    background-color: var(--header_color);
+}
+
+body{
+    background-color: #f5f9f9;
+}
+
+footer{
+    background-color: #232629;
+    color: white;
+}
+
+.equalTable{
+    padding: 100px;
+    margin: 100px;
+}
+
+img{
+    width:100%;
+}
+
+
